@@ -1,0 +1,30 @@
+좌표계
+
+좌표계(座標系, coordinate system) 혹은 자리표계는 <link>유클리드 공간|유클리드 공간</link>과 같은 <link>다양체|다양체</link>의 <link>점|점 (기하학)</link>이나 기타 기하학적 요소를 고유하게 결정하기 위해 하나 이상의 숫자인 좌표를 사용하는 체계이다.
+ <link>스칼라|스칼라</link> <link>튜플|튜플</link>을 이용해 n차원 공간의 각 지점을 표현하는 방법을 말한다.
+ 여기서 스칼라는 보통 <link>실수|실수</link>, 경우에 따라서는 <link>복소수|복소수</link>나 다른 일반적인 <link>환|환 (수학)</link>(ring)의 원소를 말하기도 한다.
+ 복잡한 우주에서 스칼라는 우주 전체에 대해 효과적인 좌표계를 산출하지 못하기도 한다.
+ 이 경우 그래프로 이 좌표계를 우주 지도 책에 함께 수집하여 둔다.
+
+대표적인 좌표계.
+- <link>수직선|수직선 (수학)</link>
+- <link>직교 좌표계|직교 좌표계</link>
+- <link>복소평면|복소평면</link>
+- <link>극좌표|극좌표</link>
+- <link>원통 좌표계|원통 좌표계</link>
+- <link>구면 좌표계|구면 좌표계</link>
+-  <link>지리 좌표계|지리 좌표계</link>
+- <link>천구 좌표계|천구 좌표계</link>
+- <link>지평 좌표계|지평 좌표계</link>
+- <link>은하 좌표계|은하 좌표계</link>
+- <link>적도 좌표계|적도 좌표계</link>
+- <link>황도 좌표계|황도 좌표계</link>
+- <link>관성 좌표계|관성 좌표계</link>
+
+같이 보기.
+- <link>갈릴레이 변환|갈릴레이 변환</link>
+
+바깥 고리.
+- <a href="http%3A//homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/AV0405/MARTIN/Hex.pdf">Hexagonal Coordinate Systems</a>
+
+

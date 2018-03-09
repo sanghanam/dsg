@@ -1,0 +1,72 @@
+리처드 스톨먼
+
+리처드 매슈 스톨먼(Richard Matthew Stallman, <link>1953년|1953년</link> <link>3월 16일|3월 16일</link> ~ )은 <link>자유 소프트웨어 운동|자유 소프트웨어 운동</link>의 중심 인물이며, <link>GNU|GNU</link> 프로젝트와 <link>자유 소프트웨어 재단|자유 소프트웨어 재단</link>의 설립자이다.
+ 그는 이 운동을 지원하기 위해 <link>카피레프트|카피레프트</link>의 개념을 만들었으며, 현재 널리 쓰이고 있는 <link>일반 공중 사용 허가서|일반 공중 사용 허가서</link>(GPL) 소프트웨어 라이선스의 개념을 도입했다.
+
+그는 또한 탁월한 프로그래머이기도 하다.
+ 그는 <link>문서 편집기|문서 편집기</link>인 <link>Emacs|Emacs</link>, <link>GNU 컴파일러 모음|GNU 컴파일러 모음</link> 컴파일러, <link>GDB|GDB</link> 디버거 등 많은 프로그램을 만들었으며, 이들 모두를 GNU 프로젝트의 일부로 만들었다.
+
+그는 자유 소프트웨어 운동의 도덕적, 정치적, 법적인 기초를 세우는 데 본질적인 영향을 준 인물이며, 이는 <link>독점 소프트웨어|독점 소프트웨어</link> 개발과 공급에 대한 대안이 되었다.
+
+살아온 길.
+스톨만은 <link>1953년|1953년</link> <link>3월 16일|3월 16일</link>, 엘리스 립맨과 대니얼 스톨만의 아들로 <link>맨해튼|맨해튼</link>에서 태어났다.
+
+<link>1960년대|1960년대</link> 그의 고등학교 저학년 시절에 처음으로 개인용 컴퓨터를 접해볼 수 있는 기회를 얻었다.
+ 그리고 지금은 사라진 시내에 있던 연구소인 <link>IBM 뉴욕 과학센터|IBM 뉴욕 과학센터</link>에서 일하면서, 스톨만은 고등학교 졸업 후의 여름을 보냈고 거기에서 그의 첫 번째 프로그램인 <link>IBM 7064|IBM 7064</link>를 위한 전처리기(pre-processor)를 <link>PL/I|PL/I</link> 프로그래밍 언어로 작성했다.
+ 다음과 같이 그는 회상했다.
+
+<link>1971년|1971년</link>에 <link>하버드 대학|하버드 대학</link>의 신입생으로 스톨만은 <link>MIT|매사추세츠 공과대학</link> <link>인공지능|인공지능</link> 실험실의 <link>해커|해커</link>가 되었다.
+
+해커 문화의 타락.
+<link>1980년대|1980년대</link>, 스톨만의 삶이었던 해커 공동체가 소프트웨어 산업의 상업화로 인해 점차 사라질 위기에 처하기 시작했다.
+
+특히, 실험실 내의 다른 해커들은 <link>심볼릭스|심볼릭스</link>(Symbolics)라는 회사를 차리고는, 기존의 자유 소프트웨어를 그들만의 독점 소프트웨어로 바꾸는 작업을 적극적으로 시도했다.
+
+<link>1983년|1983년</link>에서 <link>1985년|1985년</link> 사이의 2년동안, 스톨만은 연구실 내에서 혼자 힘으로 <link>심볼릭스|심볼릭스</link>의 결과물들과 똑같은 기능의 프로그램을 작성하여 그들의 독점을 막는 일을 계속했다.
+ 그러나 그 당시 이미 그는 그의 세대 중에서 마지막 해커였다.
+ 그는 비밀 유지 합의서에 사인하기를 요구받았으며, 그의 원칙인 다른 이들과의 공유나 이웃을 돕는 것에 위배되는 작업들을 수행할 것을 요구 받았다.
+
+GNU를 설립하다.
+.
+<link>1985년|1985년</link>, 스톨만은 <link>GNU 선언문|GNU 선언문</link>을 발표했다.
+ 이는 <link>유닉스|유닉스</link>에 대항하여 자유로운 대안을 만들기 위한 그의 의지와 동기를 역설한 것이었다.
+ 그리고 얼마 안 있어 그는 <link>비영리 기관|비영리 기관</link>인 자유 소프트웨어 재단을 설립했다.
+
+그리고 그는 <link>1989년|1989년</link> <link>일반 공중 사용 허가서|일반 공중 사용 허가서</link>(GPL) 내에 "<link>카피레프트|카피레프트</link>"의 개념을 적용하였다.
+ <link>허드|허드</link>(Hurd) <link>커널|리눅스 커널</link>을 제외하고, 대부분의 GNU 시스템이 거의 동시에 완성되었다.
+ 다.
+
+<link>1991년|1991년</link>, <link>리누스 토르발스|리누스 토르발스</link>는 GPL로 <link>리눅스 커널|리눅스 커널</link>을 발표했다.
+ 이를 통해 완벽하게 기능하는 GNU 시스템인 <link>GNU/리눅스|GNU/리눅스</link> <link>운영 체제|운영 체제</link>가 탄생하게 되었다.
+
+자유 소프트웨어 대 오픈 소스.
+리처드 스톨만의 정치적이고 도덕적인 동기는 그를 매우 논쟁적인 인물로 만들었다.
+ 코드를 공유하자는 개념에 동의하는 프로그래머들 중 많은 수가 스톨만의 도덕주의적인 입장과 개인적인 철학에는 동의하지 않았다.
+ 이러한 논쟁의 한 결과로 자유 소프트웨어 운동의 대안인 <link>오픈 소스|오픈 소스</link> 운동이 생겨났다.
+
+수상경력.
+스톨만은 그의 작업들로 인해 다음과 같이 수많은 상을 수상했다.
+
+- <link>1990년|1990년</link>: 맥아더 펠로우쉽
+- <link>1991년|1991년</link>: Emacs 편집기에 대한 공헌을 인정받아 <link>ACM|ACM</link>의 그레이스 하퍼 상 수상
+- <link>1996년|1996년</link>: <link>스웨덴|스웨덴</link>의 왕립기술연구소에서 명예 박사학위 받음
+- <link>1998년|1998년</link>: <link>전자 프론티어 재단|전자 프론티어 재단</link>의 파이오니어 상 수상
+- <link>1999년|1999년</link>: <link>유리 루빈스키|유리 루빈스키</link> 기념상 수상
+- <link>2001년|2001년</link>: <link>The Takeda Techno-Entrepreneurship Award|The Takeda Techno-Entrepreneurship Award</link> 수상
+
+더 볼 만한 페이지.
+- <link>해킹|해킹</link>
+- <link>프로그래밍의 자유를 위한 연합|프로그래밍의 자유를 위한 연합</link>
+- <link>소프트웨어 특허|소프트웨어 특허</link>
+
+관련 서적.
+- 샘 윌리엄스 (<link>2002년|2002년</link>) "Free as in Freedom: Richard Stallman's Crusade for Free Software", <link>오라일리 미디어|오라일리 미디어</link> ISBN 0-596-00287-4 (웹에서 읽기 가능, 아래 링크 참조).
+
+바깥 고리.
+- <a href="http%3A//www.stallman.org">RMS의 개인 홈페이지</a>
+- <a href="http%3A//www.gnu.org/philosophy/">GNU 철학 페이지</a>
+- <a href="http%3A//groups.google.com/groups%3Fselm%3D771%2540mit-eddie.UUCP">Original GNU 공지사항 뉴스그룹</a>
+- <a href="http%3A//www.oreilly.com/openbook/freedom/">Free As In Freedom</a>, 스톨만의 전기.
+- <a href="http%3A//groups.google.com/groups%3Fselm%3D771%2540mit-eddie.UUCP%26amp%3Boutput%3Dgplain">그의 유즈넷 기고 글</a>
+
+

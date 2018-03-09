@@ -1,0 +1,27 @@
+미세 구조 상수
+
+미세 구조 상수(微細構造常數, , 기호 "α") 또는 조머펠트 미세 구조 상수(Sommerfeld -)는 <link>전자기력|전자기력</link>의 세기를 나타내는 <link>물리상수|물리상수</link>다.
+ <link>원자물리학|원자물리학</link>과 <link>입자물리학|입자물리학</link>에서 자주 나타난다.
+ <link>1916년|1916년</link> <link>아르놀트 조머펠트|아르놀트 조머펠트</link>가 발견하였다.
+ 원래 조머펠트가 <link>원자|원자</link> <link>방출 스펙트럼|방출 스펙트럼</link>의 <link>미세 구조|미세 구조</link>를 연구할 때 발견하였으므로 이런 이름이 붙었다.
+
+정의.
+미세 구조 상수 formula_1는 <link>국제단위계|국제단위계</link>에서는 다음과 같이 정의한다.
+여기서 formula_3는 <link>기본 전하|기본 전하</link>, formula_4는 <link>원주율|원주율</link>, formula_5는 <link>디랙 상수|플랑크 상수</link>, formula_6는 <link>빛의 속도|빛의 속도</link>, formula_7은 진공의 <link>유전율|유전율</link>이다.
+ 이 값은 두 <link>전자|전자</link>가 formula_8(전자의 <link>컴프턴 파장|컴프턴 효과</link>)의 거리를 두고 떨어져 있을 때, 그 <link>전기적 위치 에너지|전기적 위치 에너지</link>와 전자의 <link>정지 에너지|정지 에너지</link> formula_9의 비로 해석할 수 있다.
+
+유도.
+<link>CGS 단위계|CGS 단위계</link>에서는 formula_10 인자가 전하량에 포함되므로 식이 다음과 같이 바뀐다.
+
+formula_1는 차원이 없는 상수이기 때문에, 그 값은 단위계에 상관없이 같다.
+ 여기에 들어가는 기본 상수값을 대입해보면다.
+이 나온다.
+ 이 값은 실제 측정값과는 차이가 있다.
+ 여기에 <link>양자 전기역학|양자 전기역학</link>에서 예견하는 전자들의 상호작용을 통한 보정을 고려할 수 있다.
+ 이는 전자의 <link>자기 모멘트|자기 모멘트</link>와 미세 구조 상수와의 관계를 통해 구해진 것으로, 다음과 같다.
+
+바깥 고리.
+- <a href="http%3A//physics.nist.gov/cuu/Constants/alpha.html">CODATA 미세 구조 상수 권장값</a>
+- <a href="http%3A//scienceworld.wolfram.com/physics/FineStructureConstant.html">Eric Weisstein's World of Physics — Fine Structure Constant</a>
+
+

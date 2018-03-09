@@ -1,0 +1,22 @@
+유니코드
+
+유니코드(Unicode)는 전 세계의 모든 문자를 <link>컴퓨터|컴퓨터</link>에서 일관되게 표현하고 다룰 수 있도록 설계된 산업 <link>표준|표준</link>이며, 유니코드 협회(Unicode Consortium)가 제정한다.
+ 이 표준에는 ISO 10646 <link>문자 집합|문자 집합</link>, <link>문자 인코딩|문자 인코딩</link>, 문자 정보 데이터베이스, 문자들을 다루기 위한 알고리즘 등을 포함하고 있다.
+
+유니코드의 목적은 현존하는 <link>문자 인코딩|문자 인코딩</link> 방법들을 모두 유니코드로 교체하려는 것이다.
+ 기존의 인코딩들은 그 규모나 범위 면에서 한정되어 있고, 다국어 환경에서는 서로 호환되지 않는 문제점이 있었다.
+ 유니코드가 다양한 문자 집합들을 통합하는 데 성공하면서 유니코드는 <link>컴퓨터 소프트웨어|컴퓨터 소프트웨어</link>의 <link>국제화와 지역화|국제화와 지역화</link>에 널리 사용되게 되었으며, 비교적 최근의 기술인 <link>XML|XML</link>, <link>자바|자바 (프로그래밍 언어)</link>, 그리고 최신 <link>운영 체제|운영 체제</link> 등에서도 지원하고 있다.
+
+유니코드에서 한국어 발음을 나타날 때는 <link>예일 로마자 표기법|예일 로마자 표기법</link>의 변형인 <link>ISO/TR 11941|ISO/TR 11941</link>을 사용하고 있다.
+
+기원 및 개발.
+유니코드의 기원은 1987년으로 거슬러 올라가며, 이 때 <link>제록스|제록스</link>의 조 베커와 <link>애플|애플 (기업)</link>의 리 콜린스, 마크 데이비스가 통일된 문자 집합을 만드는 것을 탐구하기 시작하였다.
+ 1988년 조 베커는 유니코드라는 이름의 국제/다언어 문자 인코딩 시스템(international/multilingual text character encoding system, tentatively called Unicode)를 위한 초안을 출판하였다.
+
+바깥 고리.
+- <a href="http%3A//www.unicode.org/">유니코드 협회</a>
+- <a href="http%3A//kldp.org/Translations/html/UTF8-Unicode-KLDP/UTF8-Unicode-KLDP.html">유닉스/리눅스 사용자를 위한 UTF-8 유니코드 FAQ</a>
+- <a href="http%3A//www.decodeunicode.org/">디코드유니코드(DecodeUnicode)</a> - 유니코드 위키
+- <a href="http%3A//graphemica.com/">graphemica : 문자 상세정보</a>
+
+

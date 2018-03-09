@@ -1,0 +1,31 @@
+화소
+
+화소(畵素) 또는 픽셀(; picture element에서 유래)은 화면을 구성하는 가장 기본이 되는 단위이다.
+
+표준 디스플레이 해상도.
+표준 디스플레이 해상도는 크게 다음과 같다.
+메가픽셀.
+메가픽셀 (줄여서 MP, Mpx)은 100만 화소를 가리키며 영상의 화소 수만을 위한 것이 아니라 <link>디지털 카메라|디지털 카메라</link>의 <link>이미지 센서|이미지 센서</link> 요소의 수나 <link>디지털 디스플레이|컴퓨터 모니터</link>의 디스플레이 요소의 수를 나타내는 데에도 사용된다.
+ 이를테면 2048x1536 센서 요소는 3.1 메가픽셀 (2048 x 1536 = 3,145,728)를 가진다는 말과 같다.
+
+기술.
+서브픽셀.
+많은 디스플레이와 영상 획득 시스템들은 여러 이유로, 다른 색의 채널들을 하나의 소재에서 보여 주거나 인지할 수 없다.
+ 따라서 화소 그리드는 표시되는 단일의 색 영역이나, 일정한 거리에서 보이는 느낄 수 있는 색으로 나뉘게 된다.
+
+앤티에일리어싱.
+컴퓨터 화면에서는 화소 단위보다 세세하게 표현할 수 없다.
+ 벡터가 아닌 비트맵 방식의 사진이나 그림을 확대하면 거칠게 각져서 두드러진 화소를 볼 수 있다.
+ 이러한 현상을 줄이기 위해, 화소의 모서리를 주변의 색과 비슷하게 바꾸어 색을 매끄럽게 바꾸는 것을 <link>앤티에일리어싱|앤티에일리어싱</link>(anti-aliasing)이라고 한다.
+
+함께 보기.
+- <link>앤티에일리어싱|앤티에일리어싱</link>
+- <link>클리어타입|클리어타입</link>
+- <link>불량 화소|불량 화소</link>
+
+바깥 고리.
+- <a href="http%3A//alvyray.com/Memos/CG/Microsoft/6_pixel.pdf">A Pixel Is Not A Little Square</a>: Microsoft Memo by computer graphics pioneer Alvy Ray Smith.
+- <a href="http%3A//lurkertech.com/lg/pixelaspect/">Square and non-Square Pixels</a>: Technical info on pixel aspect ratios of modern video standards (480i,576i,1080i,720p), plus software implications.
+- <a href="http%3A//www.gigapixel360.com">120 Megapixel is here now</a>: A lot of information about MegaPixel and Gigapixel.
+
+

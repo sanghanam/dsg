@@ -1,0 +1,35 @@
+옴의 법칙
+
+옴의 법칙()은 도체의 두 지점사이에 나타나는 <link>전위차|전위차</link>에 의해 흐르는 <link>전류|전류</link>가 일정한 법칙에 따르는 것을 말한다.
+ 두 지점 사이의 도체에 일정한 전위차가 존재할 때, 도체의 <link>저항|저항</link>(resistance)의 크기와 전류의 크기는 반비례하다.
+ formula_1는 도선에 흐르는 전류로 단위는 <link>암페어(A,ampere)|암페어</link> formula_2는 도체에 양단에 걸리는 전위차로 단위는 전압(V,volt), 그리고 formula_3은 도체의 <link>전기저항|전기저항</link>(resistance)으로 단위는 옴(Ω, ohm) 이다.
+ 특히, 옴의 법칙에서 저항 R은 상수이고, 전류와 독립적이다.
+
+회로망에서 저항은 두 <link>노드|노드 (회로 이론)</link>(node) 사이에 존재한다.
+ 옴의 법칙은 다른 회로 법칙과 함께 회로 해석에 중요한 요소이다.
+ 저항은 물리적으로 특정 형태를 갖는 일정한 길이의 물체로 존재하므로, 전체 전위차가 저항체의 길이 전체에 나누어 분포한다.
+ 그러나 회로망 해석에서는 두 노드 사이에 존재하는 한 점으로 모델링하여 전체 저항값(상수값)을 저항의 대표값으로 취급하여 해석한다.
+
+옴의 법칙은 <link>전자기학|전자기학</link>의 법칙 중 하나이다.
+ 이름은 <link>독일|독일</link>의 과학자 <link>게오르크 옴|게오르크 옴</link>의 이름을 딴 것이다.
+
+옴의 법칙의 원형.
+옴의 법칙은 미시적으로 다음과 같다.
+J 는 <link>전류 밀도|전류 밀도</link>이며, σ 는 <link>전기전도율|전기전도율</link>(비등방성 물질에서 <link>텐서|텐서</link>일 수도 있음)이고, E는 <link>전기장|전기장</link>이다.
+
+이 방정식은 오직 전도체의 <link>기준계|기준계</link>에서만 유효하다.
+ 만약 물체가 <link>자기장|자기장</link> B에 대해 v의 속력으로 움직인다면 이 방정식은 다음과 같이 바뀐다.
+이 식은 <link>로런츠 힘|로런츠 힘</link>과 관계를 가지는데, 이로써 옴의 법칙을 <link>로런츠 힘|로런츠 힘</link>과 (전하 운반체의 속력에 비례하는) <link>항력|항력</link>이 있다는 가정 아래 유도할 수 있다.
+
+옴의 법칙의 미시적인 형태에서 "전기장과 도선의 전압, 도선의 길이간에 상관관계"를 통해 다음과 같은 옴의 법칙의 거시적인 형태를 얻을 수 있다.
+
+여기서 formula_1는 전류 밀도를 적분한 <link>전류|전류</link>이고, formula_3은 <link>비저항|비저항</link> formula_9을 적분하여 얻은 <link>저항|전기저항</link>이고, formula_2는 전기장을 적분하여 얻은 <link>전압|전압</link>이다.
+
+바깥 고리.
+- <a href="http%3A//www.sengpielaudio.com/calculator-ohmslaw.htm">옴의 법칙 계산 · The Magic Triangle</a>
+- <a href="http%3A//www.sengpielaudio.com/calculator-ohm.htm">전자력, 전압, 흐름 및 저항의 계산</a>
+- <a href="http%3A//www.cvs1.uklinux.net/calculators/">옴의 법칙과 다른 회로 변수를 위한 상호 계산기</a>
+- <a href="http%3A//www.phy.hk/wiki/englishhtm/Circuit.htm">단순 전기 회로의 상호 시뮬레이션.</a>
+- <a href="http%3A//www.nttinc.com/ohmslaw.cfm">옴의 법칙 계산기를 내려받는 곳.</a>
+
+

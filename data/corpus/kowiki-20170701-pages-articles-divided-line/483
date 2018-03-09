@@ -1,0 +1,27 @@
+원통좌표계
+
+원통좌표계 (cylindrical coordinate system)는 3차원 공간을 나타내기 위해, 평면 극좌표계에 평면에서부터의 높이 formula_1 (혹은 formula_2)를 더해, formula_3 로 이루어지는 좌표계이다.
+
+원통좌표계는 한 축을 중심으로 <link>대칭성|대칭성</link>을 갖는 경우에 유용하다.
+ 예를 들면, 반지름이 formula_4인 무한히 긴 원통의 <link>직교좌표계|직교좌표계</link>에서의 식은 formula_5 이지만, 원통좌표계에서는 간단히 formula_6가 된다.
+ 이런 이유로 원통좌표계(cylinder-ical coordinate)란 이름이 붙어있다.
+
+정의.
+3차원 공간의 점 P 는 formula_3로 표시된다.
+ 이를 <link>직교좌표계|직교좌표계</link>로 표시해 보면 다음과 같다.
+:다.
+- formula_8은 원점 O 에서 P의 formula_9평면으로의 사영 P'까지의 거리를 나타낸다.
+ 다시 말하면, formula_8은 formula_1축에서 P까지의 거리이다.
+- formula_12는 양의 formula_13축 방향에서 반시계 방향으로 측정한 OP까지의 각이다.
+- formula_1는 formula_1와 같다.
+formula_1에 높이(height)란 의미를 주어 formula_1대신 formula_2를 사용한 formula_19란 표기도 자주 쓰인다.
+ 다.
+
+원통좌표계의 경우는 좌표값에 따라 한 점을 여러 좌표가 가리키는 경우가 있으므로, 각 변수의 범위를 보통 아래와 같이 제한한다.
+
+단위벡터.
+각 <link>단위벡터|단위벡터</link>의 직교좌표에서의 표현은 다음과 같다.
+유용한 공식들.
+부피 요소
+
+

@@ -1,0 +1,62 @@
+GNU
+
+GNU('그누'로 발음)는 <link>GNU 프로젝트|GNU 프로젝트</link>를 통하여 개발한 <link>유닉스 계열|유닉스 계열</link> 컴퓨터 <link>운영 체제|운영 체제</link>이며 궁극적으로는 "완전한 유닉스 호환 소프트웨어 시스템"이 되는 것이 목표이다.
+ <link>리처드 스톨만|리처드 스톨만</link>이 1983년에 GNU 개발을 처음 시작하였으며 원래는 <link>자유 소프트웨어 재단|자유 소프트웨어 재단</link>(FSF)의 중심이었지만 2010년 11월까지 GNU 안정판이 나오지는 않았다.
+
+GNU는 "GNU는 유닉스가 아니다.
+"란 의미를 갖는 영어 문장 "GNU's Not UNIX"의 약자로, 원래의 문장 안에 자신이 이미 들어 있는 <link>재귀 약자|재귀 약자</link>이다.
+ 스톨만은 GNU를 "그누"로 읽자고 제안한다.
+ <link>유닉스|유닉스</link>는 이미 널리 쓰이던 <link>독점 소프트웨어|독점 소프트웨어</link> 운영 체제로, 유닉스의 아키텍처는 기술적으로 믿을만 한 것으로 증명되어 있어, GNU 시스템은 유닉스와 호환될 수 있도록 만들어졌다.
+ 유닉스 아키텍처는 개별적인 요소들이 따로 따로 작성되는 것을 허용한다.
+ 또, 이미 공개되어 있던 조판 소프트웨어 <link>TeX|TeX</link>나 <link>X 윈도|X 윈도</link>도 쓸 수 있는 장점이 있었다.
+
+GNU가 제공하는 허가서로는 <link>GNU 일반 공중 사용 허가서|GNU 일반 공중 사용 허가서</link> (GPL), <link>GNU 약소 일반 공중 사용 허가서|GNU 약소 일반 공중 사용 허가서</link> (LGPL), <link>GNU 자유 문서 사용 허가서|GNU 자유 문서 사용 허가서</link> (GFDL)가 있다.
+
+GNU 프로젝트.
+...신념을 포기하지 않고도 컴퓨터를 계속 사용하기 위해서 나는 사용이 제한되는 소프트웨어 없이도 작업을 해 나갈 수 있는 충분한 자유 소프트웨어의 본체를 만들 결심을 했다.
+..(<link>GNU 선언문|GNU 선언문</link> 중에서)다.
+
+이러한 GNU 철학은 <link>GNU 프로젝트|GNU 프로젝트</link>의 자유 소프트웨어 운동으로 이어졌다.
+
+GNU 소프트웨어.
+다음은 GNU 프로젝트를 통해 개발한 소프트웨어들이다.
+- <link>Bison|GNU bison</link>, <link>yacc|yacc</link>을 대체하려고 만든 <link>파서 발생기|컴파일러-컴파일러</link>
+- <link>Bash|Bash</link>, 셸.
+- <link>Binutils|GNU Binutils</link>, <link>어셈블러|어셈블러</link>와 <link>링커|링커</link>를 포함.
+- <link>이맥스|이맥스</link> (Emacs), 다양한 기능의 문서 편집기.
+- <link>GCC|GNU 컴파일러 모음</link>, C를 비롯한 다양한 프로그래밍 언어를 위한 컴파일러
+- <link>GDB|GDB</link>, 디버깅 프로그램.
+- <link>김프|김프</link>, 그림 편집기.
+- <link>glibc|glibc</link>, C 라이브러리.
+- <link>GMP|GMP (라이브러리)</link>, 수치 계산 라이브러리.
+- <link>그놈|그놈</link>, 그래픽 데스크톱 환경.
+- <link>GNU 빌드 시스템|GNU 빌드 시스템</link> - <link>Autoconf|Autoconf</link>, <link>Automake|Automake</link>, <link>Libtool|Libtool</link>
+- <link>GNUStep|GNUStep</link> - <link>오픈스텝|오픈스텝</link> 표준의 추가 (그래픽 응용 소프트웨어를 위한 라이브러리 및 개발 도구 집합)
+- GSL, GNU 과학 라이브러리.
+- <link>GZip|GZip</link>, <link>데이터 압축|데이터 압축</link>을 위한 라이브러리와 프로그램
+- <link>HURD|HURD</link>, 유닉스 커널과 같은 기능을 수행하는 <link>마이크로커널|마이크로커널</link>과 서버들의 모임
+- <link>Maxima|Maxima</link>, <link>컴퓨터 대수학 체계|컴퓨터 대수학 체계</link>.
+- <link>Octave|GNU 옥타브</link>, <link>MATLAB|MATLAB</link>과 비슷한 수치 계산기.
+- <link>GNU MDK|GNU MDK</link>, <link>MIX|MIX</link> 안에서 프로그램을 짜기 위한 개발 키트.
+- <link>GNU 라디오|GNU 라디오</link>, 범용 하드웨어를 이용한 소프트웨어 무선 통신 신호 처리 패키지
+- <link>오픈오피스 (Open Office)|오픈오피스</link>, GNU 오피스
+
+GNU 프로젝트는 다른 곳에서 개발된 패키지로 배포하고 도와 주기도 한다.
+
+같이 보기.
+- <link>GNU 선언문|GNU 선언문</link>
+- <link>오픈 소스|오픈 소스</link>
+- <link>자유 소프트웨어 재단|자유 소프트웨어 재단</link>
+- <link>자유 소프트웨어 운동|자유 소프트웨어 운동</link>
+- <link>GNU/리눅스|GNU/리눅스</link>
+- <link>GPL|GPL</link>
+- <link>유닉스|유닉스</link>
+
+바깥 고리.
+- <a href="http%3A//www.gnu.org/">GNU 공식 홈페이지</a>
+- <a href="http%3A//korea.gnu.org">GNU Korea 홈페이지</a>
+- <a href="http%3A//groups.google.com/groups%3Fhl%3Den%26amp%3Bselm%3D771%2540mit-eddie.UUCP">스톨만의 최초 선언</a>
+- <a href="http%3A//www.gnu.org/gnu/thegnuproject.ko.html">스톨만 자신의 프로젝트와 그 역사에 대한 긴 설명</a>
+- <a href="http%3A//www.gnu.org/encyclopedia/free-encyclopedia.html">"The Free Universal Encyclopedia and Learning Resource", GNU 백과사전에 대한 스톨만의 글</a>
+
+

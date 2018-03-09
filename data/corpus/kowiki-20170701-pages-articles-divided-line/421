@@ -1,0 +1,121 @@
+P2P
+
+P2P(peer-to-peer network) 혹은 동등 계층간 통신망(同等階層間通信網)은 비교적 소수의 서버에 집중하기보다는 망구성에 참여하는 기계들의 계산과 <link>대역폭|대역폭</link> 성능에 의존하여 구성되는 <link>통신망|네트워크</link>이다.
+ P2P 통신망은 일반적으로 <link>노드|노드</link>들을 규모가 큰 <link>애드혹|Ad hoc</link>으로 서로 연결하는 경우 이용된다.
+ 이런 통신망은 여러 가지로 쓸모가 있는데, 오디오나 비디오, 데이터 등 임의의 디지털 형식 파일의 공유는 매우 보편적이다.
+ 또한, 인터넷 전화(<link>VoIP|VoIP</link>)같은 실시간 데이터 등도 P2P 기술을 통해 서로 전달될 수 있다.
+
+순수 P2P 파일 전송 네트워크는 <link>클라이언트|클라이언트</link>나 <link>서버|서버</link>란 개념 없이, 오로지 동등한 계층 노드들(peer nodes)이 서로 클라이언트와 서버 역할을 동시에 네트워크 위에서 하게 된다.
+ 이 네트워크 구성 모델은 보통 중앙 서버를 통하는 통신 형태의 클라이언트-서버 모델과는 구별된다.
+ <link>FTP|파일 전송 프로토콜</link> 서버야 말로 P2P 파일 전송 형식이 아닌, 대표적 반례로 꼽을 수 있다.
+ 어떤 사용자가 FTP 서버에 어떤 파일을 올리면 다른 사용자들이 내려 받는데, 올리는 쪽과 내려받는 쪽 모두 동시에 접속하지 않아도 된다.
+
+<link>냅스터|냅스터</link>, <link>오픈냅|오픈냅</link>, <link>IRC|IRC</link> <link>@find|w:Depot channel</link>) 등과 같은 네트워크과 채널은 클라이언트-서버 구조를 검색 등과 같은 일부 기능에 쓰고, 다른 기능은 P2P 구조를 쓴다.
+ <link>누텔라|누텔라 (네트워크)</link>나 <link>프리넷|프리넷</link> 같은 네트워크는 모든 기능에 P2P 구조를 가지는데, 비록 그 네트워크가 다른 같은 계층의 사용자들(peers)의 네트워크 주소를 알려 주는 데 디렉터리(directory) 서버에 크게 의존하긴 하지만, 때때로 진정한 P2P 네트워크으로 인용된다.
+
+P2P 네트워크 구조는 최근에 인터넷 상에서 멀티미디어 파일을 공유하는 용도로 많이 부각되긴 했지만, <link>1969년|1969년</link> <link>4월 7일|4월 7일</link>에 제정된 <link>RFC|RFC</link>(Request for Comments)란 인터넷 규약의 초기 버전부터 핵심적인 기술로 내제되어 있어 유래가 깊다.
+
+최근의 P2P 서비스는 순수 파일 전송 네트워크에서 발달하여 <link>그리드 컴퓨팅|그리드 컴퓨팅</link> 기술로 진화해 웹하드 형태로 서비스되고 있다.
+ 외부적으로 웹하드 형식으로 보이지만 실제로는 각 유저들의 저장장치에 화일이 직접 전송되어 순수 초기 P2P 네트워크와 마찬가지로 유저들의 시스템에 부하를 유발하는 공통점이 있다.
+ 이런 웹하드 형태의 그리드 컴퓨팅 P2P 서비스로는 피디박스, 화일아이, 아이팝 등이 있다.
+
+리소스 기반의 어드레싱.
+P2P는 인터넷에 연결되어 있는 여러가지 형태의 리소스 (저장 공간, 씨피유 파워, 콘텐츠, 그리고 연결된 컴퓨터를 쓰고 있는 사람 그 자체)를 이용하는 일종의 응용 프로그램이다.
+ 그런데 이들은 고정된 ip 주소도 없고, 연결이 되었다 안 되었다 하는 '불안정한' 형태로 존재하는 분산된 리소스이다.
+ 따라서 P2P 노드는 종래의 DNS '바깥에서' 운용될 수밖에 없으며 강력한 중앙의 서버들의 영향력이 미치지 않는다.
+
+바로 이 점이 P2P를 독보적으로 만드는 핵심이다.
+
+P2P 디자이너들은 그런 특징을 활용해서 CPU 싸이클들을 모을 수 있는 방법, 파일을 공유할 수 있는 방법, 채팅하는 방법 등을 찾아내고자 하는 것이다.
+ 문제는 어떤 방향으로 나아가고자 하느냐이다.
+
+냅스터나 ICQ, Popular Power, Freenet 등은 모두 기존에는 전혀 사용되지 않던 리소스를 발굴해서 지렛대로 활용하려 하고 있다는 점에서 유사하다.
+ 이러한 서비스는 다양한 형태로 인터넷에 물려 있는 수천, 수만가지의 장치들을 잘 조합하고 연결하려고 하는 것이다.
+
+혹자는 P2P 디자이너들이 해결하는 이러한 '연결 문제'(connectivity problem)가 단지 하나의 해프닝적인 것 아니냐는 식으로 얘기하곤 한다.
+ 하지만, '컴퓨터끼리 연결하는 방법을 개선하겠다'는 모토가 그 유명한 IP 주소나 DNS, 또는 그전의 TCP, 심지어는 인터넷 그 자체를 태어나게 했다는 사실. 인터넷은 결국 위에서 말한 기술이 탄생한 순간 순간이 모여서 이뤄진 것이다.
+
+DNS를 우회하는 P2P.
+1996년 나온 ICQ는 항상 인터넷에 연결되어 있는 서버와는 다른, 접속하다 끊을 수도 있는 개인용 컴퓨터들끼리 서로 접속할 수 있는 길을 처음으로 터 주었다.
+ 모든 것이 점차 휴대화되어 가는 추세를 맞아, ICQ는 DNS를 우회해서 저만의 독자적인 프로토콜 주소 디렉터리(protocol-specific address directory)를 창조해 냈던 것이다.
+ 이를 통해 IP 주소는 실시간으로 업데이트 될 수 있었다.
+ Groove, Napster, Netmeeting 등이 ICQ를 따라 이런 방법을 사용한다.
+ (물론 모든 P2P 시스템이 이 트릭을 쓰는 것은 아니다.
+ <link>그누텔라|그누텔라</link> (Gnutella) 나 Freenet의 경우, DNS를 우회하는 것은 이전 방식과 똑같지만 숫자로 표시되는 IP 주소를 활용한다는 점에서 다르다.
+ Popular Power와 SETI@Home은 각 노드가 고정된 주소에 접속할 수 있는 스케줄을 제공해서, 접속 당시의 IP 주소를 전달하는 방식을 택하고 있다)다.
+
+Whois에 따르면 IP 주소가 처음 뿌리를 내린 1984년 이후 16년 동안 2천3백만 개의 도메인 이름이 만들어졌다.
+ 하지만 냅스터는 혼자서 16개월 만에 2천 3백만 개의 비 DNS 주소를 만들어냈다.
+ 그리고 만약 사용자가 모든 비 DNS 인스턴트 메시징 주소에 가입한다고 하면 동적인 IP 주소에 접근할 수 있는 P2P 주소의 개수는 모두 2억 개를 넘어선다.
+ 평균 DNS 호스트가 10개의 second.first.com 같은 형태의 2차 주소를 갖고 있다고 가정해 보아도, 현재의 P2P 주소의 모든 개수는 불과 4년 뒤엔 DNS 주소의 모든 개수와 같아지게 될 것이며, 오늘날의 DNS 세계보다 훨씬 더 광대한 세계로 성장해 가게 된다는 셈이 된다.
+
+무선 PDA 같은 새로운 종류의 인터넷 접속 장치나 TiVo, Replay 같은 디지털 비디오 레코더가 보급됨에 따라 이들 역시 인터넷의 중요한 일부가 될 것이 확실하다.
+ 하지만 현재로는 피씨 그 자체야말로 개척되지 않은 리소스의 절대 다수를 갖고 있다.
+ 피씨는 인터넷의 다크호스이다.
+ 그리고 그 피씨가 갖고 있는 '덜' 사용된 리소스는 P2P 혁명을 더욱 가속화할 것이다.
+
+네트워크, 프로토콜, 응용 프로그램.
+"형식:"
+- "네트워크/프로토콜": "해당 네트워크를 사용하는 응용 프로그램 목록 (사용 운영 체제)"
+알파벳순 표시 - 매우 비슷한 응용 프로그램 예외
+
+- <link>Applejuice|w:Applejuice</link> network: <link>Applejuice Client|w:Applejuice Client</link>
+- <link>Avalanche|w:Avalanche (P2P)</link>
+- <link>BitTorrent|w:BitTorrent</link> network: <link>ABC|w:ABC (BitTorrent)</link>, <link>Azureus|w:Azureus</link>, <link>BitAnarch|w:BitAnarch</link>, <link>BitComet|w:BitComet</link>, <link>BitSpirit|w:BitSpirit</link>, <link>BitTornado|w:BitTornado</link>, <link>BitTorrent|w:BitTorrent</link>, <link>BitTorrent++|w:BitTorrent plus plus</link>, <link>BitTorrent.Net|w:BitTorrent.Net</link>, <link>G3 Torrent|w:G3 Torrent</link>, <link>mlMac|w:mlMac</link>, <link>MLDonkey|w:MLDonkey</link>, <link>QTorrent|w:QTorrent</link>, <link>SimpleBT|w:SimpleBT</link>, <link>Shareaza|w:Shareaza</link>, <link>TomatoTorrent|w:TomatoTorrent</link> (<link>Mac OS X|w:Mac OS X</link>) <a href="http%3A//sarwat.net/bittorrent/"></a>, <link>TorrentStorm|w:TorrentStorm</link>, <link>µTorrent|w:UTorrent</link>
+- <link>CAKE|w:CAKE</link> network: <link>BirthdayCAKE|w:BirthdayCAKE</link> the reference implementation of <link>CAKE|w:CAKE</link>
+- <link>Direct Connect|w:Direct connect file-sharing application</link> network: <link>BCDC++|w:BCDC plus plus</link>, <link>CZDC++|w:CZDC plus plus</link>, <link>DC++|w:DC plus plus</link>, <link>NeoModus Direct Connect|w:NeoModus Direct Connect</link>, <link>JavaDC|w:JavaDC</link>, <link>DCGUI-QT|w:DCGUI-QT</link>
+- <link>eDonkey network|w:eDonkey network</link>: <link>aMule|w:aMule</link> (<link>Linux|w:Linux</link>, <link>Mac OS X|w:Mac OS X</link>, others), <del><link>eDonkey2000|w:eDonkey2000</link></del>, <link>eMule|w:eMule</link>, <link>LMule|w:LMule</link>, <link>MindGem|w:MindGem</link>, <link>MLDonkey|w:MLDonkey</link>, <link>mlMac|w:mlMac</link>, <link>Shareaza|w:Shareaza</link>, <link>xMule|w:xMule</link>, <link>iMesh Light|w:iMesh Light</link>, <link>ed2k|w:ed2k</link> (eDonkey 2000 protocol)
+- <link>FastTrack|w:FastTrack</link> protocol: <link>giFT|w:giFT</link>, <link>Grokster|w:Grokster</link>, <link>iMesh|w:iMesh</link> (and its variants stripped of <link>adware|w:adware</link> including <link>iMesh Light|w:iMesh Light</link>), <link>Kazaa|w:Kazaa</link> by <link>Sharman Networks|w:Sharman Networks</link> (and its variants stripped of <link>adware|w:adware</link> including: <link>Kazaa Lite|w:Kazaa Lite</link>, <link>K++|w:K plus plus</link>, <link>Diet Kaza|w:Diet Kaza</link> and <link>CleanKazaa|w:CleanKazaa</link>), <link>KCeasy|w:KCeasy</link>, <link>Mammoth|w:Mammoth</link>, <link>MLDonkey|w:MLDonkey</link>, <link>mlMac|w:mlMac</link>, <link>Poisoned|w:Poisoned</link>
+- <link>FotoSwap|w:FotoSwap</link>
+- <link>Freenet|w:Freenet</link> network: <link>Entropy|w:Entropy (network)</link> (on its own network), Freenet, <link>Frost|w:Frost (network)</link>
+- <link>Gnutella|w:Gnutella</link> network: <link>Acquisition|w:Acquisition (software)</link> (<link>Mac OS X|w:Mac OS X</link>), <link>BearShare|w:BearShare</link>, <link>BetBug|w:BetBug</link>, <link>Cabos|w:Cabos</link>, <link>CocoGnut|w:CocoGnut</link> (<link>RISC OS|w:RISC OS</link>) <a href="http%3A//www.alpha-programming.co.uk/software/cocognut/"></a>, <link>Gnucleus|w:Gnucleus</link> <link>Grokster|w:Grokster</link>, <link>iMesh|w:iMesh</link>, <link>gtk-gnutella|w:gtk-gnutella</link> (<link>Unix|w:Unix</link>), <link>Kiwi Alpha|w:Kiwi Alpha</link>, <link>LimeWire|w:LimeWire</link> (<link>Java|w:Java programming language</link>), <link>MLDonkey|w:MLDonkey</link>, <link>mlMac|w:mlMac</link>, <link>Morpheus|w:Morpheus (computer program)</link>, <link>Phex|w:Phex</link> <link>Poisoned|w:Poisoned</link>, <link>Swapper|w:Swapper</link>, <link>Shareaza|w:Shareaza</link>, <link>XoloX|w:XoloX</link>
+- <link>Gnutella2|w:Gnutella2</link> network: <link>Adagio|w:Adagio (computer program)</link>, <link>Caribou|w:Caribou (computer program)</link>, <link>Gnucleus|w:Gnucleus</link>, <link>iMesh|w:iMesh</link>, <link>Kiwi Alpha|w:Kiwi Alpha</link>, <link>MLDonkey|w:MLDonkey</link>, <link>mlMac|w:mlMac</link>, <link>Morpheus|w:Morpheus (computer program)</link>, <link>Shareaza|w:Shareaza</link>, <link>TrustyFiles|w:TrustyFiles</link>
+- <link>HyperCast|w:HyperCast</link> <a href="http%3A//www.cs.virginia.edu/hypercast"></a>
+- <link>Joltid PeerEnabler|w:Joltid PeerEnabler</link>: <link>Altnet|w:Altnet</link>, <link>Bullguard|w:Bullguard</link>, <link>Joltid|w:Joltid</link>, <link>Kazaa|w:Kazaa</link>, <link>Kazaa Lite|w:Kazaa Lite</link>
+- <link>Kad Network|w:Kad Network</link> (using <link>Kademila|w:Kademila</link> protocol): <link>eMule|w:eMule</link>, <link>MindGem|w:MindGem</link>, <link>MLDonkey|w:MLDonkey</link>
+- <link>LUSerNet|w:LUSerNet</link> (using LUSerNet protocol): <link>LUSerNet|w:LUSerNet</link>
+- <link>MANOLITO|w:MANOLITO</link>/MP2P network: <link>Blubster|w:Blubster</link>, <link>Piolet|w:Piolet</link>, <link>RockItNet|w:RockItNet</link>
+- <link>Napster|w:Napster</link> network: <link>Napigator|w:Napigator</link>, <link>OpenNap|w:OpenNap</link>, <link>WinMX|w:WinMX</link>
+- <link>Peercasting|w:Peercasting</link> type networks: <link>PeerCast|w:PeerCast</link>, <link>IceShare|w:IceShare</link> - P2P implementation of <link>IceCast|w:IceCast</link>, <a href="http%3A//www.freecast.org/">Freecast</a>
+- <link>프라우드넷|프라우드넷</link>
+- <link>LiveP2P|w:LiveP2P</link> type networks: <link>CoolStreaming|w:CoolStreaming</link>, <link>Cybersky-TV|w:Cybersky-TV</link>
+- <link>WPNP|w:WPNP</link> network: <link>WinMX|w:WinMX</link>
+
+- other networks: <link>Akamai|w:Akamai</link>, <link>Alpine|w:Alpine program</link>, <link>ANts P2P|w:ANts P2P</link>, <link>Ares Galaxy|w:Ares Galaxy</link>, <link>Audiogalaxy|w:Audiogalaxy</link> network, <link>Carracho|w:Carracho</link>, <link>Chord|w:Chord peer-to-peer lookup service</link>, <link>The Circle|w:The Circle</link>, <link>Coral|w:Coral Content Distribution Network</link> <a href="http%3A//www.scs.cs.nyu.edu/coral/"></a>, <link>Dexter|w:Dexter</link>, <link>Diet-Agents|w:Diet-Agents</link>, <link>EarthStation 5|w:EarthStation 5</link> network, <link>Evernet|w:Evernet</link>, <link>FileTopia|w:FileTopia</link>, <link>GNUnet|w:GNUnet</link>, <link>Grapevine|w:Grapevine (software)</link>, <link>Groove|w:Groove (software)</link>, <link>Hotwire|w:Hotwire</link>, <link>iFolder|w:iFolder</link><a href="http%3A//www.ifolder.com/"></a>, <link>konspire2b|w:konspire2b</link>, <link>Madster/Aimster|w:Madster</link>, <link>MUTE|w:MUTE</link>, <link>Napshare|w:Napshare</link>, <link>OpenFT|w:OpenFT</link> (<link>Poisoned|w:Poisoned</link>), <link>P-Grid|w:P-Grid</link><a href="http%3A//www.p-grid.org"></a>, <link>IRC|w:Internet relay chat</link> <link>@find|w:at find</link> and <link>XDCC|w:XDCC</link>, used by <link>IRC|w:IRC</link> clients including: <link>mIRC|w:mIRC</link> and <link>Trillian|w:Trillian (instant messenger)</link>, <link>JXTA|w:JXTA</link>, <link>Peersites|w:Peersites</link> <a href="http%3A//www.peersites.com"></a>, <link>MojoNation|w:MojoNation</link>, <link>Mnet|w:Mnet</link>, <link>Overnet|w:Overnet</link> network, <link>Scour|w:Scour</link>, Scribe, <link>Skype|w:Skype</link>, <link>Solipsis|w:Solipsis</link> a massively multi-participant virtual world, <link>SongSpy|w:SongSpy</link> network, <link>Soulseek|w:Soulseek</link>, <link>SPIN|w:SPIN (software)</link>, <link>SpinXpress|w:SpinXpress (software)</link>, <link>SquidCam|w:SquidCam</link> <a href="http%3A//www.squidsoft.com"></a>, <link>Swarmcast|w:Swarmcast</link>, <link>WASTE|w:WASTE</link>, <link>Warez P2P|w:Warez P2P</link>, <link>Winny|w:Winny</link>, <link>AsagumoWeb|w:AsagumoWeb</link>, <link>OpenExt|w:OpenExt</link>, <link>Tesla|w:Tesla (network)</link>, <link>soribada|w:soribada</link>, <link>fileswapping|w:fileswapping</link>, <link>XSC|w:XSC</link>,
+
+P2P 시스템의 이전 세대는 메타컴퓨팅(metacomputing)이라 불리거나 미들웨어(middleware)로 분류됨. <link>Legion|w:Legion (software)</link>, <link>Globus|w:Globus</link>, <link>Condor|w:Condor Soft</link>, <link>ByteTornado|w:ByteTornado</link>
+
+다중 네트워크(Multi-network) 응용 프로그램.
+"형식:" "응용 프로그램 (네트워크/프로토콜) (사용 운영 체제) (오픈 소스 여부?)"
+
+- <link>eMule|w:eMule</link> (<link>Edonkey Network|w:Edonkey Network</link>, <link>Kad Network|w:Kad Network</link>) (<link>Microsoft Windows|w:Microsoft Windows</link>, <link>Linux|w:Linux</link>) (open source)
+- <link>aMule|w:aMule</link> (<link>EDonkey network|w:EDonkey network</link>) (<link>Linux|w:Linux</link>, <link>Mac OS X|w:Mac OS X</link>, <link>FreeBSD|w:FreeBSD</link>, <link>NetBSD|w:NetBSD</link>, <link>OpenBSD|w:OpenBSD</link>, <link>Windows|w:Microsoft Windows</link> and <link>Solaris Operating Environment|w:Solaris Operating Environment</link>) (open source)
+- <link>Epicea|w:Epicea</link> (<link>Epicea|w:Epicea</link>, <link>BitTorrent|w:BitTorrent</link>, <link>Edonkey Network|w:Edonkey Network</link>, <link>Overnet|w:Overnet</link>, <link>FastTrack|w:FastTrack</link>, <link>Gnutella|w:Gnutella</link>) (Microsoft Windows) (?)
+- <link>GiFT|w:GiFT</link> (own <link>OpenFT|w:OpenFT</link> protocol, and with plugins - FastTrack, eDonkey and Gnutella) (open source)
+- <link>xfactor|w:xfactor</link> (uses <link>GiFT|w:GiFT</link>) (<link>Mac OS X|w:Mac OS X</link>) (?)
+- <link>Gnucleus|w:Gnucleus</link> (Gnutella, <link>Gnutella2|w:Gnutella2</link>) (Microsoft Windows) (open source)
+- <link>Hydranode|w:Hydranode</link> (eDonkey2000) (Microsoft Windows, <link>Linux|w:Linux</link>, <link>Mac OS X|w:Mac OS X</link>) (?)
+- <link>iMesh|w:iMesh</link> (Fasttrack, <link>Edonkey Network|w:Edonkey Network</link>, Gnutella, <link>Gnutella2|w:Gnutella2</link>) (Microsoft Windows) (?)
+- <link>Kazaa|w:Kazaa</link> (FastTrack, <link>Joltid PeerEnabler|w:Joltid PeerEnabler</link>) (Microsoft Windows) (closed source)
+- <link>Kazaa Lite|w:Kazaa Lite</link> (FastTrack, Joltid PeerEnabler) (Microsoft Windows) (closed source)
+- <link>KCeasy|w:KCeasy</link> (Gnutella, Ares, giFT) (?)
+- <link>Kiwi Alpha|w:Kiwi Alpha</link> (Gnutella, Gnutella2) (Microsoft Windows) (?)
+- <link>MindGem|w:MindGem</link> (<link>Edonkey Network|w:Edonkey Network</link>, Kademlia) (?)
+- <link>MLDonkey|w:MLDonkey</link> (BitTorrent, <link>eDonkey|w:Edonkey Network</link>, FastTrack, Gnutella, Gnutella2, Kademlia) (Microsoft Windows, <link>Linux|w:Linux</link>, <link>Mac OS X|w:Mac OS X</link>) (open source)
+- <link>mlMac|w:mlMac</link> (BitTorrent, eDonkey, FastTrack, Gnutella, Gnutella2) (?)
+- <link>Morpheus|w:Morpheus (computer program)</link> (Gnutella, Gnutella2)(Microsoft Windows) (closed source)
+- <link>Poisoned|w:Poisoned</link> (FastTrack, Gnutella, Ares, OpenFT, giftd) (Max OS X) (?)
+- <link>Shareaza|w:Shareaza</link> (BitTorrent, eDonkey, Gnutella, Gnutella2) (Microsoft Windows) (open source)
+- <link>WinMX|w:WinMX</link> (<link>Napster|w:Napster</link>, <link>WPNP|w:WPNP</link>) (Microsoft Windows) (closed source)
+- <link>XNap|w:XNap</link> (<link>OpenNAP|w:OpenNAP</link>, GiFT, <link>Limewire|w:Limewire</link>, <link>Overnet|w:Overnet</link>, <link>ICQ|w:ICQ</link>, <link>IRC|w:Internet Relay Chat</link>) (Java) (open source)
+- <link>Zultrax|w:Zultrax</link> (Gnutella, <link>ZEPP|w:ZEPP</link>) (?)
+
+관련항목.
+- <link>클라이언트 서버 모델|클라이언트 서버 모델</link>
+- <link>컴퓨터 클러스터|컴퓨터 클러스터</link>
+- <link>그리드 컴퓨팅|그리드 컴퓨팅</link>
+
+바깥 고리.
+- <a href="http%3A//www.openp2p.com/pub/a/p2p/2000/11/24/shirky1-whatisp2p.html">What Is P2P... And What Isn't?</a>
+
+

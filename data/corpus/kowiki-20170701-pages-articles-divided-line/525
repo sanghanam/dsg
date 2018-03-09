@@ -1,0 +1,88 @@
+웹 브라우저
+
+웹 브라우저(, )는 <link>웹 서버|웹 서버</link>에서 쌍방향 통신하는 <link>HTML|HTML</link> 문서나 파일과 연동하고 출력하는 <link>응용 소프트웨어|응용 소프트웨어</link>이다.
+ 웹 브라우저는 대표적인 <link>HTTP|HTTP</link> <link>사용자 에이전트|사용자 에이전트</link>의 하나이기도 하다.
+
+주요 웹 브라우저로는 <link>모질라 파이어폭스|모질라 파이어폭스</link>, <link>구글 크롬|구글 크롬</link>, <link>인터넷 익스플로러|인터넷 익스플로러</link>/<link>마이크로소프트 엣지|마이크로소프트 엣지</link>, <link>오페라|오페라 (웹 브라우저)</link>, <link>사파리|사파리 (웹 브라우저)</link>가 있다.
+
+역사.
+최초의 웹 브라우저는 1990년에 <link>팀 버너스 리|팀 버너스 리</link>가 발명하였다.
+ 버너스 리는 W3C의 감독자로서 웹의 지속적인 발전을 감독하며, 월드 와이드 웹 재단의 설립자이기도 하다.
+ 그의 브라우저는 <link>월드와이드웹|월드와이드웹</link>으로 불리다가 넥서스(Nexus)로 이름이 바뀌었다.
+
+그래픽 사용자 인터페이스를 갖추면서 대중이 사용할 수 있었던 최초의 웹 브라우저는 <link>Erwise|Erwise</link>이다.
+ Erwise의 개발은 <link>로버트 카이유|로버트 카이유</link>가 시작하였다.
+
+프로토콜과 표준.
+웹 브라우저는 <link>웹 페이지|웹 페이지</link>를 가져오기 위해(웹 문서를 열기 위해) 대부분의 <link>웹 서버|웹 서버</link>가 사용하는 <link>HTTP|HTTP</link>(hyper-text transfer protocol)로 통신한다.
+ HTTP를 이용해 웹 페이지를 가져올 뿐 아니라 웹 서버에 정보를 송신하기도 한다.
+ 작성한 시점에서 가장 많이 사용되는 HTTP는 HTTP/1.1로 <link>RFC|RFC</link> 2616에 정의되어 있다.
+ HTTP/1.1은 현 세대의 다른 브라우저와는 달리 인터넷 익스플로러에서 완벽하게 지원하지 못하는 표준이 있어야 한다.
+
+페이지들은 주소처럼 이용되는 <link>URL|URL</link>(uniform resource locator)을 통해 장소가 정해지고, HTTP 접근을 위해 "http:"로 시작된다.
+ 많은 브라우저가 <link>FTP|파일 전송 프로토콜</link>를 위한 "ftp:", <link>HTTPS|HTTPS</link>(암호화된 HTTP)를 위한 "https:"와 같은 다양한 URL 종류와 대응 프로토콜을 지원한다.
+
+웹 페이지의 <link>파일 포맷|파일 포맷</link>은 보통 <link>HTML|HTML</link>(hyper-text markup language)이 쓰이고 HTTP 프로토콜의 <link>MIME|MIME</link> "content type"에 의해 확인된다.
+ 대부분의 브라우저는 HTML 외에 <link>JPEG|JPEG</link>, <link>PNG|PNG</link>, <link>GIF|GIF</link> 이미지 포맷들을 지원하고, 그밖에도 <link>플러그인|플러그인</link>을 통해 확장할 수 있다.
+ HTTP의 "content type"과 URL 프로토콜 명세의 조합으로 웹 페이지 설계자들은 이미지, 애니메이션, 동영상, 소리, <link>스트리밍 미디어|스트리밍 미디어</link> 등을 웹 페이지에 덧붙이거나 웹 페이지를 통해 접근할 수 있게 한다.
+
+초기의 웹 브라우저는 단순한 <link>HTML|HTML</link>만을 지원했다.
+ 독점적인 웹 브라우저의 빠른 개발로 <link>HTML|HTML</link>의 비표준 확장이 많이 이루어졌고, 웹 호환성에 심각한 문제가 생겨났다.
+ 현대의 웹 브라우저들은 모든 브라우저에서 동일하게 표시되어야 할 표준 기반의 <link>HTML|HTML</link>과 <link>XHTML|XHTML</link>(HTML 4.01에서 출발한)<a href="http%3A//trio.co.kr/webrefer/xhtml/overview.html/%23xhtml"></a>을 지원한다.
+
+부가적으로 <link>유즈넷|유즈넷</link> 뉴스나 <link>IRC|IRC</link>(Internet relay chat), <link>이메일|이메일</link> 등을 지원하는 브라우저도 있다.
+ 이들은 대체로 <link>NNTP|NNTP</link>, <link>SMTP|SMTP</link>, <link>IMAP|IMAP</link> 등의 프로토콜 지원이 포함된다.
+
+기능.
+브라우저 간의 차이는 그들이 지원하는 기능에 따라 구별된다.
+ 오늘날 브라우저와 웹 페이지는 웹 초기에는 없었던 기능과 기술을 많이 사용하는 경향이 있다.
+ 앞에서 언급했듯이, <link>브라우저 전쟁|브라우저 전쟁</link> 때 브라우저와 <link>월드 와이드 웹|월드 와이드 웹</link>에는 확장 기능이 급속도로 무질서하게 생겨났다.
+
+아래는 특징이 있는 기능에 대한 목록이다.
+
+표준 지원.
+- <link>HTTP|HTTP</link>, <link>HTTPS|HTTPS</link>
+- <link>HTML|HTML</link>, <link>XML|XML</link>, <link>XHTML|XHTML</link>
+- <link>GIF|GIF</link>, <link>PNG|PNG</link>, <link>JPEG|JPEG</link>, <link>SVG|SVG</link> 등을 포함한 <link>그래픽 파일 포맷|그래픽 파일 포맷</link>
+- <link>CSS|CSS</link>
+- <link>자바스크립트|자바스크립트</link>(<link>DHTML|DHTML</link>)
+- <link>쿠키|HTTP 쿠키</link>
+- <link>디지털 인증서|디지털 인증서</link>
+- 즐겨찾기 아이콘(<link>파비콘|파비콘</link>)
+- <link>플러그인|플러그인</link> 지원
+
+주요 기능.
+- <link>북마크|북마크</link> 관리자
+- <link>다운로드|다운로드</link> 관리자
+- 웹 구성물 <link>캐시|웹 캐시</link>
+- <link>플러그인|플러그인</link>을 통한 다양한 매체 지원
+
+사용성과 접근성 기능.
+- <link>URL|URL</link>과 <link>폼 데이터|폼 데이터</link>의 자동 완성
+- <link>탭 브라우징|탭 브라우징</link>
+- <link>광고|광고</link> 차단
+
+웹 브라우저 시장 점유율.
+세계 웹 브라우저 시장에서 인터넷 익스플로러는 2008년 말까지는 70%에 육박하는 점유율을 기록했다.
+ 하지만 파이어폭스, 사파리, 구글 크롬 등 새로운 웹 브라우저들이 나오며 인터넷 익스플로러의 점유율이 계속해서 떨어져 2011년 12월, 38%에 이르게 되었으며, 다음으로 크롬 27%, 파이어 폭스 25%로 뒤따랐다.
+그 후, 2013년 8월 18일 시점으로 크롬의 점유율이 43.17%로 1위이며, 인터넷 익스플로러는 25.03%, 파이어 폭스가 19.31%, 사파리 8.65% 오페라 1.14%의 순이다.
+
+같이 보기.
+- <link>인터넷|인터넷</link>
+- <link>인터넷의 역사|인터넷의 역사</link>
+- <link>웹 애플리케이션|웹 애플리케이션</link>
+- <link>웹 브라우저 목록|웹 브라우저 목록</link>
+- <link>웹 브라우저 시장 점유율|웹 브라우저 시장 점유율</link>
+- <link>웹 브라우저 연대표|웹 브라우저 연대표</link>
+- <link>브라우저 전쟁|브라우저 전쟁</link>
+- <link>모바일 브라우저|모바일 브라우저</link>
+- <link>레이아웃 엔진|레이아웃 엔진</link>
+- <link>FOUC|FOUC</link>
+
+바깥 고리.
+- <a href="http%3A//www.blooberry.com/indexdot/history/browsers.htm">Browser timeline (1993-2001)</a>
+- <a href="http%3A//browsers.evolt.org">evolt.org - Browser Archive</a>
+- <a href="http%3A//www.dejavu.org">Deja Vu: (re-)creating web history</a>
+- <a href="http%3A//trio.co.kr/webrefer/xhtml/overview.html">Trio의 XHTML 1.0 기술 규격(한글)</a>
+
+

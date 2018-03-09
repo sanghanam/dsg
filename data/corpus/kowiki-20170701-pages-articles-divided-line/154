@@ -1,0 +1,52 @@
+동치관계
+
+<link>수학|수학</link>에서, 동치관계(同値關係, )는 <link>논리적 동치|논리적 동치</link>와 비슷한 성질들을 만족시키는 <link>이항관계|이항관계</link>이다.
+
+정의.
+집합 formula_1 위의 동치관계 formula_2는 <link>반사관계|반사관계</link>이자 <link>대칭관계|대칭관계</link>이자 <link>추이관계|추이관계</link>인 <link>이항관계|이항관계</link>이다.
+ 즉, 다음 조건들이 성립하여야 한다.
+- (<link>반사관계|반사관계</link>) 임의의 formula_3에 대하여, formula_4
+- (<link>대칭관계|대칭관계</link>) 임의의 formula_5에 대하여, 만약 formula_6라면, formula_7
+- (<link>추이관계|추이관계</link>) 임의의 formula_8에 대하여, 만약 formula_6이고 formula_10라면 formula_11
+
+동치류와 몫집합.
+집합 formula_1 위에 동치관계 formula_2이 주어졌을 때, 원소 formula_3의, 동치관계 formula_2에 대한 동치류(同値類, ) formula_16는 그 원소와 동치인 원소들의 집합이다 즉,
+집합 formula_1의 formula_2에 대한 몫집합(-集合, ) formula_20은 formula_2에 대한 동치류들의 집합이다.
+ 즉,다.
+
+예.
+- 임의의 집합 위의 <link>등호|등식</link> 관계
+- 도형 집합 위의 <link>닮음|닮음</link> 관계
+- 사람들의 집합 위의, 같은 <link>생일|생일</link>을 갖는 관계
+
+반례.
+- 공집합이 아닌 집합 formula_23 위의 <link>공관계|공관계</link>는 (유일한 유형의) 반사관계가 아닌 대칭관계이자 추이관계이다.
+- <link>실수|실수</link> 집합 위의 순서 관계 formula_24는 대칭관계가 아닌 반사관계이자 추이관계이다.
+- 실수 집합 위의 이항관계 formula_25은 추이관계가 아닌 반사관계이자 대칭관계이다.
+
+성질.
+표준 사상.
+집합 위의 동치관계로부터, <link>표준사상|표준사상</link>을 구성할 수 있다.
+ 즉, 집합 formula_1 위의 동치관계 formula_2에 대하여, 함수다.
+를 표준사상이라고 한다.
+
+반대로, <link>전사함수|전사함수</link> formula_30에 대하여, 이항관계
+는 동치관계이며, 그 몫집합은
+이다.
+
+집합의 분할.
+집합 위의 동치관계와 그 <link>집합의 분할|집합의 분할</link> 사이에는 자연적인 <link>일대일 대응|일대일 대응</link>이 존재한다.
+ 즉, 다음과 같다.
+
+집합 formula_1 위의 동치관계 formula_2에 대하여, 그 몫집합 formula_20은 formula_1의 분할이다.
+ 즉,다.
+- 임의의 formula_5에 대하여, 만약 formula_6이면, formula_39이다.
+- 임의의 formula_5에 대하여, 만약 formula_41이면, formula_42이다.
+반대로, 집합 formula_1의 분할 formula_44에 대하여, 이항관계
+는 동치관계이다.
+
+같이 보기.
+- <link>집합의 분할|집합의 분할</link>
+
+
+

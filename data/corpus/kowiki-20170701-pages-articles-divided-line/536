@@ -1,0 +1,97 @@
+문자 인코딩
+
+문자 인코딩(文字―, ) 또는 줄여서 인코딩은 <link>문자|문자</link>나 <link>기호|기호</link>들의 집합을 <link>컴퓨터|컴퓨터</link>에서 저장하거나 통신에 사용할 목적으로 <link>부호화|부호화</link>하는 방법을 가리킨다.
+ 문자 인코딩을 통해 부호화되어, <link>복호화|복호화</link>하면 본래의 문자나 기호를 뜻하게 되는 <link>부호|부호 (정보)</link>를 문자 코드(文字―, )라고 한다.
+
+문자 인코딩의 대표적인 예로 <link>전건|전건</link>을 길게, 또는 짧게 두드려서 <link>라틴 알파벳|라틴 알파벳</link>을 나타내는 <link>모스 부호|모스 부호</link>가 있으며, 라틴 알파벳, 숫자, 특수 문자 등을 <link>정수|정수</link>와 그에 대응되는 7<link>비트|비트</link> <link>이진수|이진법</link>로 표현하는 방법인 <link>아스키|미국 정보 교환 표준 부호</link>(ASCII)가 있다.
+
+컴퓨팅 초기에는, <link>아스키|미국 정보 교환 표준 부호</link>(ASCII, 1963년), <link>EBCDIC|EBCDIC</link>(1964년)과 같은 문자열 세트가 표준으로 자리잡았다.
+ 이러한 문자열 세트의 제한은 명백했으며 수많은 <link>애드혹|Ad hoc</link>(ad hoc) 방식이 개발되었다.
+ <link>한중일|CJK</link> 계열의 동아시아 스크립트를 포함하여 다중 <link>문자|문자</link>(언어) 지원이 시급했다.
+
+문자 인코딩의 구성.
+문자 집합(character set, charset) 또는 문자셋은 정보를 표현하기 위한 글자들의 집합을 정의한 것으로, 직접적으로 사용되지 않을 수도 있고 한 문자 집합을 여러 문자 인코딩에서 쓸 수도 있다.
+ 특히 집합 안의 문자들에 음수가 아닌 정수들을 배정한 것을 부호화된 문자 집합(coded character set, CCS)이라 한다.
+ 문자 집합은 ASCII와 같이 더 이상의 문자가 추가될 수 없기도 하고, <link>유니코드|유니코드</link>와 같이 문자가 계속 추가될 수 있기도 하다.
+
+일반적으로 문자 집합과 문자 인코딩은 어떤 문자를 사용할 수 있으며 어떤 식으로 표현되는지를 나타낸다는 데서 동의어로 취급되기도 한다.
+ 역사적인 이유로 <link>MIME|MIME</link>이나 그에 기반한 시스템은 문자 집합("charset")을 문자 인코딩을 나타내는 데 사용한다.
+
+문자 인코딩 형태(character encoding form, CEF)는 특정한 문자 집합 안의 문자들을 컴퓨터 시스템에서 사용할 목적으로 일정한 범위 안의 정수(코드값)들로 변환하는 방법이다.
+ 여기에는 유니코드 코드 포인트를 8비트 숫자의 집합으로 나타내는 <link>UTF-8|UTF-8</link>이나, 16비트 숫자의 집합으로 나타내는 <link>UTF-16|UTF-16</link>, 그리고 대부분의 일반적인 문자 인코딩들이 포함된다.
+
+문자 인코딩 구조(character encoding scheme, CES)는 문자 인코딩 형태로 변환된 코드값을 <link>옥텟|옥텟 (컴퓨팅)</link> 기반의 시스템에서 사용하기 위하여 옥텟들로 변환하는 방법이다.
+ 대부분의 문자 인코딩 형태는 이 과정에서 아무런 일도 일어 나지 않으며, 8비트 이상의 숫자를 사용하는 UTF-16과 같은 문자 인코딩 형태의 경우 <link>엔디안|엔디안</link>을 지정해 주는 것으로 충분하다.
+ 여기에는 <link>ISO 2022|ISO 2022</link>와 같은 복합 인코딩이나, <link>SCSU|SCSU</link>와 같은 압축 방법 등이 속한다.
+
+잘 알려진 문자 인코딩.
+- <link>ISO 646|ISO/IEC 646</link>
+- <link>ASCII|ASCII</link>
+- <link>EBCDIC|EBCDIC</link>
+- <link>CP37|EBCDIC 37</link>
+- <link>CP930|EBCDIC 930</link>
+- <link>CP1047|EBCDIC 1047</link>
+- <link>ISO 8859|ISO/IEC 8859</link>:
+- <link>ISO 8859-1|ISO/IEC 8859-1</link> 서유럽
+- <link>ISO 8859-2|ISO/IEC 8859-2</link> 서유럽 및 중앙유럽
+- <link>ISO 8859-3|ISO/IEC 8859-3</link> 서유럽 및 남유럽 (터키어, 몰타어, 에스페란토어)
+- <link>ISO 8859-4|ISO/IEC 8859-4</link> 서유럽 및 발트 해 국가 (리투아니아어, 에스토니아어, 라프어)
+- <link>ISO 8859-5|ISO/IEC 8859-5</link> 키릴 문자
+- <link>ISO 8859-6|ISO/IEC 8859-6</link> 아랍 글자
+- <link>ISO 8859-7|ISO/IEC 8859-7</link> 그리스 글자
+- <link>ISO 8859-8|ISO/IEC 8859-8</link> 히브리 글자
+- <link>ISO 8859-9|ISO/IEC 8859-9</link> 서유럽 (개정된 터키어 문자 집합 포함)
+- <link>ISO 8859-10|ISO/IEC 8859-10</link> 서유럽 (개정된 노르딕어를 위한 문자 집합 및 완전 아이슬란드 문자 집합 포함)
+- <link>ISO 8859-11|ISO/IEC 8859-11</link> 타이어
+- <link>ISO 8859-13|ISO/IEC 8859-13</link> 발트어, 폴란드어
+- <link>ISO 8859-14|ISO/IEC 8859-14</link> 켈트어 (아일랜드 게일어, 스코틀랜드어, 웨일스어)
+- <link>ISO 8859-15|ISO/IEC 8859-15</link> 유로 기호 및 ISO 8859-1에 대한 다른 항목 추가
+- <link>ISO 8859-16|ISO/IEC 8859-16</link> 중앙 유럽, 남유럽어 (폴란드어, 체코어, 슬로바키아어, 세르비아어, 크로아티아어, 헝가리어, 알바니아어, 로마어, 독일어, 이탈리아어)
+- <link>CP437|코드 페이지 437</link>, <link>CP737|코드 페이지 737</link>, <link>CP850|코드 페이지 850</link>, <link>CP852|코드 페이지 852</link>, <link>CP855|코드 페이지 855</link>, <link>CP857|코드 페이지 857</link>, <link>CP858|코드 페이지 858</link>, <link>CP860|코드 페이지 860</link>, <link>CP861|코드 페이지 861</link>, <link>CP863|코드 페이지 863</link>, <link>CP865|코드 페이지 865</link>, <link>CP866|코드 페이지 866</link>, <link>CP869|코드 페이지 869</link>
+- <link>MS 윈도 문자 집합|코드 페이지</link>:
+- <link>Windows-1250|Windows-1250</link> 라틴 글자를 이용하는 중앙 유럽 언어 (폴란드어, 체코어, 슬로바키아어, 헝가리어, 슬로베니아어, 세르비아어, 크로아티아어, 로마어, 알바니아어)
+- <link>Windows-1251|Windows-1251</link> 키릴 문자
+- <link>Windows-1252|Windows-1252</link> 서양어
+- <link>Windows-1253|Windows-1253</link> 그리스어
+- <link>Windows-1254|Windows-1254</link> 터키어
+- <link>Windows-1255|Windows-1255</link> 히브리어
+- <link>Windows-1256|Windows-1256</link> 아랍어
+- <link>Windows-1257|Windows-1257</link> 발트어
+- <link>Windows-1258|Windows-1258</link> 베트남어
+- <link>맥 오에스 로만|맥 오에스 로만</link> (Mac OS Roman)
+- <link>KOI8-R|KOI8-R</link>, <link>KOI8-U|KOI8-U</link>, <link>KOI7|KOI7</link>
+- <link>MIK|MIK 코드 페이지</link>
+- <link>ISCII|ISCII</link> 인도어
+- <link>TSCII|TSCII</link> 타밀어
+- <link>VISCII|VISCII</link> 베트남어
+- <link>JIS X 0208|JIS X 0208</link> 일본어
+- <link>Shift JIS|Shift JIS</link> (마이크로소프트 <link>코드 페이지 932|코드 페이지 932</link>는 Shift_JIS의 파생)
+- <link>EUC-JP|EUC-JP</link>
+- <link>ISO-2022-JP|ISO/IEC 2022</link>
+- <link>JIS X 0213|JIS X 0213</link>는 JIS X 0208의 확장판.
+- <link>Shift_JIS-2004|Shift JIS</link>
+- <link>EUC-JIS-2004|EUC</link>
+- <link>ISO-2022-JP-2004|ISO/IEC 2022</link>
+- 중국어 <link>GB|GB 표준 목록</link>
+- <link>GB 2312|GB 2312</link>
+- <link>GBK|GBK</link> (마이크로소프트 코드 페이지 936)
+- <link>GB 18030|GB 18030</link>
+- 대만어 <link>Big5|Big5</link> (더 잘 알려진 종류가 마이크로소프트 <link>코드 페이지 950|코드 페이지 950</link>)
+- 홍콩 <link>HKSCS|HKSCS</link>
+- 한국어
+- <link>KS X 1001|KS X 1001</link>은 2바이트 한국어 문자 인코딩 표준이다.
+- <link>EUC-KR|EUC-KR</link>
+- <link>ISO-2022-KR|ISO/IEC 2022</link>
+- <link>유니코드|유니코드</link> (<link>UTF-8|UTF-8</link>도 참조)
+- <link>ANSEL|ANSEL</link> 또는 <link>ISO/IEC 6937|ISO/IEC 6937</link>
+
+같이 보기.
+- <link>문자 집합|문자 집합</link>()
+- <link>제어 문자|제어 문자</link>
+- <link>코드 페이지|코드 페이지</link>
+
+바깥 고리.
+- <a href="http%3A//www.iana.org/assignments/character-sets">Character sets registered by Internet Assigned Numbers Authority</a>
+- <a href="http%3A//www.unicode.org/unicode/reports/tr17/">Unicode Technical Report #17: Character Encoding Model</a>
+
+
